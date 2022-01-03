@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hy personal page</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Licorice&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&family=Nanum+Myeongjo:wght@400;700;800&family=Oooh+Baby&display=swap');
+
+      h1{
+        background-color: #F08080;
+        color: #FFFFF0;
+        font-family: 'Licorice', cursive;
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 3px solid #F08080;
+        padding: 33px;
+        margin: 0;
+      }
+      ul{
+        width: 100px;
+        background-color: #FFFFF0;
+        color: #F08080;
+        list-style: none;
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 15px;
+        line-height: 1em;
+        padding: 33px;
+      }
+      .title{
+        color: #FFFFF0;
+        text-decoration: none;
+      }
+
+      .list{
+        color: #F08080;
+        text-decoration: none;
+      }
+      #grid{
+        background-color: #FFFFF0;
+        display: grid;
+        margin: 0;
+
+        grid-template-columns: 150px 1fr;
+      }
+      #grid ul{
+        padding-left: 33px;
+        border-right: #FFA07A;
+      }
+      li{
+        margin: 1em;
+      }
+      #grid #welcome{
+        padding: 33px;
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+      }
+      #grid #welcome #leftImg{
+        padding-left: 33px;
+        display: grid;
+
+      }
+      #grid #welcome #rightImg{
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+
+
+      }
+      #grid #welcome #leftImg .img1{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        filter: sepia(50%);
+
+      }
+      #grid #welcome #rightImg .img2 {
+        display: grid;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        filter: sepia(50%);
+
+      }
+      #grid #welcome #rightImg .img3{
+        display: grid;
+        margin-left: 15px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        filter: sepia(50%);
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a class="title" href="1.index.html">Only for Heeyeon</a></h1>
+    <div id="grid">
+      <ul>
+        <li><a class="list" href="2.Attendance.html">Attendance</a></li>
+        <li><a class="list" href="3.Nails.html">Nails</a></li>
+        <li><a class="list" href="4.Calender.html">Calender</a></li>
+        <li><a class="list" href="5.Quotes.html">Quotes</a></li>
+      </ul>
+      <div id="welcome">
+        <div id="leftImg">
+          <img class="img1" src="/Users/heeyeon/Desktop/myweb/img1.jpeg">
+        </div>
+        <div id="rightImg">
+          <img class="img2" src="/Users/heeyeon/Desktop/myweb/img2.jpeg">
+         <img class="img3" src="/Users/heeyeon/Desktop/myweb/img3.jpeg">
+       </div>
+      </div>
+    </div>
+  </body>
+</html>
